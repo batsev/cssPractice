@@ -1,0 +1,53 @@
+div {
+  background-color: red;
+  width: 15rem;
+  margin: auto;
+}
+div a {
+  background-color: green;
+  color: white;
+  padding: 0 10px;
+}
+div li ul {
+  background-color: yellow;
+}
+div li ul a {
+  background-color: purple;
+}
+
+div li ul li ul {
+  background-color: red;
+}
+div li ul li ul a {
+  background-color: black;
+}
+div li ul li ul a {
+  background-color: black;
+}
+div li ul li ul li ol {
+  background-color: yellow;
+}
+div li ul li ul li ol a {
+  background-color: blue;
+  color: orange;
+}
+
+div > ul > li:last-child > a {
+  color: black;
+}
+div > ul > li > ul > li:last-child > a {
+  color: orange;
+}
+div > ul > li > ul > li > ul > li:last-child > a {
+  color: yellow;
+}
+div > ul > li > ul > li > ul > li > ol > li:last-child > a {
+  color: white;
+}
+
+div > ul > li > ul > li > ul > li > ol > li:nth-child(odd) > a {
+  background-color: aqua;
+}
+div > ul > li > ul > li > ul > li > ol > li:nth-child(2) > a {
+  padding: 0 10px;
+}
